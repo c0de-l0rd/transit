@@ -1,0 +1,22 @@
+{
+  "name": "transit",
+  "version": "1.0.0",
+  "description": "landing page",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0de-l0rd/Transit_landing_page.git"
+  },
+  "keywords": [
+    "transit"
+  ],
+  "author": "Namushi Chipango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0de-l0rd/Transit_landing_page/issues"
+  },
+  "homepage": "https://github.com/c0de-l0rd/Transit_landing_page#readme"
+}
