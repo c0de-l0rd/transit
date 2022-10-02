@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--- Bootstrap css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+    <!--- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="heads ">
+        <h1 class="title" >Transit</h1>
+</header>
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="AboutUs.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="FAQ.html">FAQ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="row row-content">
+        <div class="col-12 offset-1">
+           <h3>Register as a truck driver on Transit</h3>
+        </div>
+
+<div class="col-12 col-md-9 offset-1 ">
+    <Form >
+        <div class="form-group row">
+            <label for="" class="col-12 col-md-2 col-form-label">Truck Owner:</label>
+            <div class="col-5 col-md-4 offset-md-1">
+                <input type="text" class="form-control" id="areacode" name="firstName"
+                placeholder="First Name">
+            </div>
+            <div class="col-5 col-md-4 ">
+                <input type="text" class="form-control" id="" name="lastName"
+                placeholder="Last Name">
+            </div>
+        </div>
+
+        <div class="form-group row">
+                <label class="col-12 col-md-3 col-form-label" for="ownerTel">Truck Owner Contact:</label>
+            
+            <div class="col-10 col-md-4">
+                <input type="tel" class="form-control"
+                placeholder="Phone Number">
+            </div>
+             <div class="col-10 col-md-4">
+                        <input type="email" class="form-control" 
+                            placeholder="Email">
+             </div>
+        </div>
+            
+        
+
+        <div class="form-group row">
+                <label class="col-12 col-md-3 col-form-label" for="ownerTel">Type of Truck:</label>
+            <div class="col-10 col-md-4">
+                <input type="tel" class="form-control"
+                placeholder="e.g light-truck, refrigerator truck">
+            </div>
+          </div>  
+
+            <div class="form-group row">
+                <label class="col-12 col-md-1" for="truckType">Tonnage:</label>
+            <div class="col-5 col-md-2 offset-md-2">
+                <input type="number" class=" form-control"
+                placeholder="e.g 1.8" id="truckType">
+            </div>
+            <label for="" class="col-form-label">tonnes</label>
+            </div>
+            
+            
+
+            <div class="form-group row">
+                <label class="col-12 col-md-2 col-form-label " for="truckQuantity">Number of Trucks:</label>
+            <div class="col-5 col-md-2">
+                <input class="form-control offset-md-7" type="text" id="truckQuantity" 
+                value="1">
+            </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-12 col-md-2 col-form-label" for="driverContact">Truck Driver Contact:</label>
+                <div class="col-10 col-md-2">
+                    <input class="form-control offset-md-7" type="text"
+                    placeholder="WhatsApp line">
+                </div>
+            </div>
+            
+            <div class="form-group row">
+                <label class="col-12 col-md-2 col-form-label" for="driverContact">Truck Driver Drivers License:</label>
+                <div class="col-10 col-md-2">
+                    <input class="form-control offset-md-7" type="text"
+                    placeholder="drivers license">
+                </div>
+            </div>
+
+            </div>
+            
+    </div>
+    <div class="row">
+        <button type="submit" class="btn btn-primary offset-5 offset-lg-1">Register</button>
+    </div>
+    
+    </Form>
+ </div>
+    
+
+    <!-- jQuery.js first then popper.js then Bootstrap.js -->
+    <script src="node_modules/jquery/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

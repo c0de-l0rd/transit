@@ -1,0 +1,60 @@
+.heads {
+    height: 70px;
+    background-color: black;
+    display: flex;
+}
+
+
+  @media screen and (max-width: 420px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .heads{
+        height: 50px;
+    }
+  }
+
+  .title{
+    color: white;
+    margin-left: 1%;
+    align-self: center;
+
+  }
+  
+  .navbar-custom{
+    background-color: #f5f5f5;
+  }
+
+  .row-content{
+    margin-top: auto;
+    padding: 50px 0px 50px 0px;
+  }
+
+  .main-content{
+    margin-top: auto;
+  
+  }
+
+  .signUp{
+    color: white;
+    text-decoration: none;
+  }
+
+  .pgFooter{
+    background-color: black;
+    height: 180px;
+  }
+
+  .socialIcon{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+  }
+
+  .landingPic{
+    width: 1350px;
+  }
+
+  .trucker{
+    width: 50;
+  }
