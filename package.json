@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/c0de-l0rd/Transit_landing_page/issues"
   },
-  "homepage": "https://github.com/c0de-l0rd/Transit_landing_page#readme"
+  "homepage": "https://github.com/c0de-l0rd/Transit_landing_page#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "firebase": "^9.14.0",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.12.9"
+  }
 }
