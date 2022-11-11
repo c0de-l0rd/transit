@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--- Bootstrap css -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-social.css">
     
     <!--- CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -33,11 +35,13 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+const database = getDatabase();
+
 function writeData(){
-    app.database().ref("user").set({
+    set(ref(database),{
         truckerFirstName: document.getElementById("truckerFirstName").value,
         truckerLastName: document.getElementById("truckerFirstName").value,
         truckerContact: document.getElementById("truckerContact").value,
